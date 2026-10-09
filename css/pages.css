@@ -15,7 +15,7 @@
 .bk-half{grid-column:span 1;background:linear-gradient(var(--clay),#b7603f);opacity:.55}
 .bk b{font:400 1.7rem/1 var(--f-display)}
 .bk span{font:700 .95rem/1.3 var(--f-body);overflow-wrap:anywhere}
-.bk time{font-size:.8rem;opacity:.9}
+.bk time{font-size:.8125rem}
 .js-ready .bk,.js-ready .bk-half{opacity:0;transform:translateY(-14px);animation:lay .6s var(--ease) forwards}
 .js-ready .bk:nth-child(2){animation-delay:.08s}.js-ready .bk:nth-child(3){animation-delay:.16s}.js-ready .bk:nth-child(4){animation-delay:.24s}.js-ready .bk:nth-child(5){animation-delay:.32s}.js-ready .bk:nth-child(6){animation-delay:.4s}.js-ready .bk:nth-child(7){animation-delay:.48s}.js-ready .bk:nth-child(8){animation-delay:.56s}
 @keyframes lay{to{opacity:1;transform:none}}
@@ -23,7 +23,7 @@
 .js-ready .bk-half{animation:layh .6s var(--ease) .3s forwards}
 @media (prefers-reduced-motion:reduce){.js-ready .bk{opacity:1;transform:none}.js-ready .bk-half{opacity:.55;transform:none}}
 @media (max-width:900px){.hero-grid{grid-template-columns:1fr}.hero h1{max-width:14ch}}
-@media (max-width:520px){.wall{padding:8px}.wall-list{gap:4px}.bk{padding:10px 10px 9px}.bk b{font-size:1.35rem}.bk span{font-size:.86rem}.bk time{font-size:.76rem}}
+@media (max-width:520px){.wall{padding:8px}.wall-list{gap:4px}.bk{padding:10px 10px 9px}.bk b{font-size:1.35rem}.bk span{font-size:.86rem}}
 /* STATS */
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding-top:clamp(44px,6vw,72px);padding-bottom:clamp(44px,6vw,72px)}
 .stat{padding:8px 20px;border-left:1px solid var(--mortar);min-width:0}
