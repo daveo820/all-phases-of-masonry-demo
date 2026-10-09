@@ -27,7 +27,7 @@
 }
 @media (max-width:560px){.cl-full{display:none}.cl-short{display:inline}.mark small{display:none}.nav{gap:10px}}
 @media (max-width:400px){.mark b{font-size:1.12rem}.mk{width:34px;height:24px}.btn--call{padding:0 12px}.menu-btn{padding:0 11px}.nav{gap:8px}}
-@media (max-width:340px){.mark b{font-size:1rem}}
+@media (max-width:360px){.mark b{font-size:1rem}.mk{width:28px;height:20px}.btn--call{padding:0 10px;font-size:.92rem}.menu-btn{padding:0 9px}}
 /* signature: the running bond. Two courses of brick, the top one offset by half a brick, laid in left to right */
 .course{display:block;height:28px;--b:var(--brick);--c:var(--clay);
  background:
