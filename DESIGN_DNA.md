@@ -11,7 +11,7 @@
 | tide-2 | #2b4b57 | panel hover on dark |
 | brick | #a4442b | buttons (white text), bricks, stats, headline accent |
 | brick-dk | #86331d | small brick text on light |
-| clay | #b45a3a | second brick tone |
+| clay | #ab5131 | second brick tone |
 | mortar | #d8d1c4 | mortar lines, rules, wall background |
 | sand | #efe8db | subpage headers, bands |
 | oyster | #f8f5ef | page |
